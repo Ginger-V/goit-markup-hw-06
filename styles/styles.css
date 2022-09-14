@@ -1065,7 +1065,8 @@ border: 1px solid var(--accent-color--);
 fill: var(--accent-color--);
 }
 
-.modal-form-field-text {
+.modal-form-field-text:nth-child(4) {
+display: block;
 margin-bottom: 20px;
 }
 
@@ -1097,8 +1098,8 @@ fill: var(--accent-color--);
 .modal-form-check-field {
 display: flex;
 align-items: center;
-margin-top: 20px;
-margin-bottom: 20px;
+justify-content: center;
+margin-bottom: 30px;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -1173,6 +1174,8 @@ cursor: pointer;
 border: 1px solid var(--accent-color--);
 border-radius: 4px;
 margin-right: 7px;
+transition: background-color var(--transition-timing-function), 
+box-shadow var(--transition-timing-function;)
 
 }
 
